@@ -4,6 +4,8 @@ A pair of __I2C libraries__ for __AVR micros__ with __USI two-wire mode__ capabi
 
 The goal here is to use them as the main entry point when dealing with __I2C__ in future projects (and improve them over time, of course!), so here's a fully functional micro-example of a __primary device__ reading from a __secondary device__ and writing into a third __secondary one__ (bonus: connection with a a __ssd1306 oled screen__!).
 
+More info on [my hackaday.io project page](https://hackaday.io/project/183814-i2c-libraries-for-attiny85-like-avr-micros).
+
 ![I2C attiny85 TWI](http://albertgonzalez.coffee/projects/i2c_attiny85_twi/img/2_700.jpg?)
 
 ## I2C primary / secondary
