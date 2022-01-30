@@ -32,7 +32,7 @@ I tried to comment everything I could on the libs itself and the examples, since
 
 There's no schematic for the wiring (which is basically example-oriented) but the important points are the following:
 
-- Remember to use __1.5k__ (or similar) resistors to pull-up the __SDA__ and __SCL__ lines (some devices - like the __NES Mini Controller__! - seems to use it's own internal resistors, so there's no need to add anything if you're just working with one of those).
+- Remember to use __10k__ (or similar) resistors to pull-up the __SDA__ and __SCL__ lines (some devices - like the __NES Mini Controller__! - seems to use it's own internal resistors, so there's no need to add anything if you're just working with one of those).
 - The libs are set with the __attiny85__ pins in mind: __SDA__ and __SCL__ on __PB0__ and __PB2__. Needless to say, this needs to be changed for other micros if required.
 - The example pins (buttons and leds) are kinda easy to follow on the code itself (just a regular montage with leds, resistors and buttons using the internal pull-up resistors).
 
