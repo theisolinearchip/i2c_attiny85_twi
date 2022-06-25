@@ -1,6 +1,6 @@
 DEVICE  		= attiny85
-F_CPU   		= 16500000	# in Hz
-FUSE_L  		= 0xE1
+F_CPU   		= 16000000UL
+FUSE_L  		= 0xF1
 FUSE_H  		= 0xDD
 AVRDUDE 		= avrdude -c avrisp2 -p $(DEVICE)
 
