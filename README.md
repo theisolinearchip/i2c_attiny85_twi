@@ -1,4 +1,4 @@
-# I2C libraries for attiny85-like AVR micros
+# I2C libraries for attiny85-like AVR micros 
 
 A pair of __I2C libraries__ for __AVR micros__ with __USI two-wire mode__ capabilities (developed and tested on __attiny85__'s, but portable - in theory! - to similar devices with the proper pin changes) + a bunch of examples both with __primary__ and __secondary__ devices.
 
